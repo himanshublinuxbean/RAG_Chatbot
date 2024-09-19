@@ -1,0 +1,63 @@
+
+Setup and Running Instructions
+
+Backend Setup
+
+1.Open a Terminal and Navigate to the Backend Folder:
+Begin by opening a terminal or command prompt on your computer. Navigate to the folder where the backend code is located. You can do this by typing the following command and pressing Enter:
+ 
+cd backend
+
+
+2. Install Python Dependencies:
+
+pip install -r requirements.txt
+
+
+3. Run the Flask Application:
+
+python app.py
+--------------------------------------------------------------------------------------------------------------------------
+
+Frontend Setup
+
+
+Step 1: Download Node.js
+
+1. Go to the Node.js Website: Open your web browser and navigate to the Node.js official website.
+Choose the Version: You'll see two versions: LTS (Long Term Support) and Current. If you're unsure, select the LTS version for stability.
+
+Step 2: Run the Installer
+Open the Installer: Once the download is complete, locate the .msi file in your Downloads folder and double-click it to run the installer.
+Start the Setup: Click "Next" on the welcome screen.
+
+Step 3: Choose Installation Path
+Select Destination Folder: Choose where you want Node.js to be installed (the default path is usually fine) and click "Next."
+
+Step 4: Install
+Start Installation: Click the "Install" button to begin the installation
+
+Step 5: Verify the Installation
+Open Command Prompt: Press Windows + R, type cmd, and hit Enter to open the Command Prompt.
+
+node -v
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+
+1. Open a New Terminal and Navigate to the Frontend Folder:
+Open a new terminal or command prompt. Navigate to the folder where the frontend code is located by typing the following command and pressing Enter:
+
+cd frontend
+
+2. In Terminal write 
+
+npm install
+
+
+3. For run the project type in terminal
+
+npm run dev
+
+
